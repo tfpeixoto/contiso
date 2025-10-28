@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Template name: Notícias
+ */
 require_once('parts/header.php');
 ?>
 
@@ -15,13 +19,19 @@ require_once('parts/header.php');
       <h2>Atualize-se com a contiso: Novidades do setor e da empresa.</h2>
     </div>
 
-    <div class="item__list">
-      <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <div class="news__list">
+      <?php
+      $args = array(
+        'post_type' => 'post',
+        'posts_per_page' => 5
+      );
+      $news = new WP_Query($args);
+      if ($news->have_posts()) : while ($news->have_posts()) : $news->the_post();
+      ?>
 
           <div class="news__item item">
             <div class="item__image">
               <?php the_post_thumbnail(); ?>
-              <img src="#" alt="#" />
             </div>
 
             <div class="item__content">
