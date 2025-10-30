@@ -38,3 +38,10 @@
 @import "~bootstrap/scss/images";
 @import "~bootstrap/scss/buttons";
 @import "~bootstrap/scss/tables";
+
+@import "components/header";
+@import "components/list";
+/*! purgecss start ignore */
+@import "components/contact";
+/*! purgecss end ignore */
+@import "components/footer";

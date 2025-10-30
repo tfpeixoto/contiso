@@ -1,0 +1,70 @@
+.footer {
+  background-color: $soft-yellow;
+  color: $secondary;
+  padding: 15rem 0 0 0;
+  margin-top: -6rem;
+  z-index: 5;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @include media-breakpoint-up(md) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+
+    &__social {
+      h2 {
+        font-weight: 700;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+
+        li {
+          list-style: none;
+        }
+      }
+    }
+  }
+
+  &__policy {
+    a {
+      color: $secondary;
+    }
+  }
+
+  &__brand {
+    display: flex;
+    justify-content: center;
+
+    @include media-breakpoint-up(md) {
+      justify-content: flex-end;
+    }
+  }
+
+  &__copy {
+    border-top: 1px solid rgba(white, 0.2);
+    margin-top: 3rem;
+    padding: 2rem 0;
+
+    p {
+      margin: 0;
+      text-align: center;
+    }
+  }
+}

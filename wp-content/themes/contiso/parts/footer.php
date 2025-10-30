@@ -1,11 +1,13 @@
 <footer class="footer">
-  <div class="container">
+  <div class="container footer__container">
     <div class="footer__info">
-      <h2>Contiso Contabilidade</h2>
-      <p>&copy; 2025 Contiso Contabilidade Ltda.</p>
+      <div class="footer__info__content">
+        <h2>Contiso Contabilidade</h2>
+        <p>&copy; <?php the_time('Y'); ?> Contiso Contabilidade Ltda.</p>
+      </div>
 
-      <div class="footer__social">
-        <h2>Sida nossas redes</h2>
+      <div class="footer__info__social">
+        <h2>Siga nossas redes</h2>
         <ul>
           <li><a href="#">Facebook</a></li>
           <li><a href="#">Google+</a></li>
@@ -19,7 +21,7 @@
     </div>
 
     <div class="footer__brand">
-      <a href="#"><img src="#" alt="#" /></a>
+      <a href="<?= home_url(); ?>"><img src="<?= get_template_directory_uri(); ?>/assets/images/marca-contiso-secondary.png" alt="Marca Contiso Contabilidade" /></a>
     </div>
   </div>
 

@@ -40,3 +40,10 @@
 @import "~bootstrap/scss/tables";
 
 @import "components/header";
+@import "components/list";
+@import "components/features";
+@import "components/showtoo";
+/*! purgecss start ignore */
+@import "components/contact";
+/*! purgecss end ignore */
+@import "components/footer";

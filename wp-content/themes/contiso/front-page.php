@@ -13,7 +13,7 @@ require_once('parts/header.php');
 </section>
 
 <section class="highlight">
-  <div class="container">
+  <div class="container highlight__container">
     <div class="highlight__item item">
       <div class="item__image">
         <img src="#" alt="#" />
@@ -53,85 +53,50 @@ require_once('parts/header.php');
 </section>
 
 <section class="features">
-  <div class="container">
+  <div class="container features__container">
     <div class="features__item">
-      <img src="#" alt="#" class="features__icon" />
+      <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-parceria.png" alt="Ícone parceria humanizada e customizada" class="features__icon" />
       <h2>Parceria humanizada e customizada</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu gravida erat porta, eu feugiat metus dictum. In eget euismod neque. Morbi suscipit tellus orci. Nam consectetur nulla vel leo sollicitudin.</p>
+      <p>Na Contiso, acreditamos que a contabilidade é sobre pessoas. Oferecemos um atendimento próximo e empático, garantindo a confidencialidade e a dedicação que o seu negócio merece. Nossas soluções são totalmente adaptadas à sua realidade, construídas para atender às particularidades da sua empresa.</p>
     </div>
 
     <div class="features__item">
-      <img src="#" alt="#" class="features__icon" />
+      <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-parceria.png" alt="Ícone parceria humanizada e customizada" class="features__icon" />
       <h2>Inteligência estratégica para decisões conscientes</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu gravida erat porta, eu feugiat metus dictum. In eget euismod neque. Morbi suscipit tellus orci. Nam consectetur nulla vel leo sollicitudin.</p>
+      <p>Vamos além dos números para ser um pilar de apoio em sua tomada de decisões. Ao transformar dados financeiros em insights confiáveis, capacitamos sua gestão a traçar caminhos mais seguros e a capitalizar as oportunidades que impulsionam o crescimento e o sucesso.</p>
     </div>
 
     <div class="features__item">
-      <img src="#" alt="#" class="features__icon" />
+      <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-parceria.png" alt="Ícone parceria humanizada e customizada" class="features__icon" />
       <h2>Agilidade operacional e otimização de recursos</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis arcu gravida erat porta, eu feugiat metus dictum. In eget euismod neque. Morbi suscipit tellus orci. Nam consectetur nulla vel leo sollicitudin.</p>
+      <p>Com nossa equipe de especialistas, aplicamos metodologias de ponta para otimizar seus processos contábeis. Isso resulta em maior eficiência, eliminação de gastos supérfluos e um ganho significativo de tempo, permitindo que sua equipe se concentre nas atividades centrais do negócio.</p>
     </div>
   </div>
 </section>
 
 <section class="showtoo">
-  <div class="container">
+  <div class="container showtoo__container">
     <div class="showtoo__title">
       <h2>Conheça também:</h2>
     </div>
 
     <div class="showtoo__items">
-      <div class="showtoo__trainning">
+      <div class="showtoo__trainning item">
         <img src="#" alt="#" />
-        <h2>Treinamentos</h2>
+        <h3>Treinamentos</h3>
         <a href="#">Saiba mais</a>
       </div>
 
-      <div class="showtoo__app">
+      <div class="showtoo__app item">
         <img src="#" alt="#" />
-        <h2>Nosso aplicativo</h2>
+        <h3>Nosso aplicativo</h3>
         <a href="#">Saiba mais</a>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="contact">
-  <div class="container">
-    <div class="contact__form">
-      <h2>Contato</h2>
-      <p>Ficou com alguma dúvida? Fale com a gente.</p>
-      <address>
-        <p>Rua Antônio Poli, 676 - Piso Superior - Jardim São Vicente<br />
-          Itupeva/SP<br />
-          Fone: <a href="tel:+551144965708">(11) 4496-5708</a> / <a href="https://wa.me/5511973739469">(11) 97373-9469</a>
-        </p>
-      </address>
-
-      <form>
-        <div class="form-control">
-          <label for="nome">Nome</label>
-          <input type="text" name="nome" id="nome" placeholder="Nome" />
-        </div>
-
-        <div class="form-control">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Email" />
-        </div>
-
-        <div class="form-control">
-          <label for="mensagem">Mensagem</label>
-          <textarea id="mensagem"></textarea>
-        </div>
-      </form>
-    </div>
-
-    <div class="contact__map">
-      Mapa
     </div>
   </div>
 </section>
 
 <?php
+require_once('parts/contact.php');
 require_once('parts/footer.php');
 ?>
