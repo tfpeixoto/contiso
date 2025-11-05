@@ -7,10 +7,11 @@ require_once('parts/header.php');
 ?>
 
 <section class="slider">
-  <div class="container">
+  <div class="container slider__container">
     <h1><?php the_title(); ?></h1>
-    <img src="#" alt="#" />
   </div>
+
+  <img src="<?= get_template_directory_uri(); ?>/assets/images/banner.jpg" alt="#" />
 </section>
 
 <section class="news">
@@ -48,9 +49,20 @@ require_once('parts/header.php');
 
       <?php endif; ?>
     </div>
+
+    <div class="news__nav">
+      <div class="news__nav__button nav-previous">
+        <?php previous_post_link('%link', '◂'); ?>
+      </div>
+
+      <div class="news__nav__button nav-next">
+        <?php next_post_link('%link', '▸'); ?>
+      </div>
+    </div>
   </div>
 </section>
 
 <?php
+require_once('parts/contact.php');
 require_once('parts/footer.php');
 ?>
