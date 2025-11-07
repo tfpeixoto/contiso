@@ -6,20 +6,24 @@
 require_once('parts/header.php');
 ?>
 
-<section class="slider">
-  <div class="container">
-    <h1><?php the_title(); ?></h1>
-    <img src="#" alt="#" />
-  </div>
-</section>
+<main class="page--diferenciais">
+  <section class="slider">
+    <div class="container slider__container">
+      <h1><?php the_title(); ?></h1>
+    </div>
 
-<section class="content">
-  <div class="container">
-    <?php the_content(); ?>
-  </div>
-</section>
+    <img src="<?= get_template_directory_uri(); ?>/assets/images/banner.jpg" alt="#" />
+  </section>
+
+  <section class="content">
+    <div class="container content__container">
+      <?php the_content(); ?>
+    </div>
+  </section>
+
+  <?php require_once('parts/contact.php'); ?>
+</main>
 
 <?php
-require_once('parts/contact.php');
 require_once('parts/footer.php');
 ?>

@@ -7,46 +7,47 @@ require_once('parts/header.php');
 ?>
 
 <section class="slider">
-  <div class="container">
-    <img src="#" alt="#" />
-  </div>
+  <div class="container slider__container"></div>
+  <img src="<?= get_template_directory_uri(); ?>/assets/images/banner.jpg" alt="#" />
 </section>
 
-<section class="highlight">
-  <div class="container highlight__container">
-    <div class="highlight__item item">
-      <div class="item__image">
-        <img src="#" alt="#" />
+<section class="list list--highlight">
+  <div class="container list__container">
+    <div class="list__items">
+      <div class="item">
+        <div class="item__image">
+          <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+        </div>
+
+        <div class="item__content">
+          <h2>Uma trajetória de expertise, compromisso e dedicação.</h2>
+          <p>A Contiso é uma empresa especializada em soluções contábeis, fiscais e trabalhistas, oferecendo serviços personalizados para atender às necessidades de cada cliente.</p>
+          <a href="#">Clique e saiba mais</a>
+        </div>
       </div>
 
-      <div class="item__content">
-        <h2>Uma trajetória de expertise, compromisso e dedicação.</h2>
-        <p>A Contiso é uma empresa especializada em soluções contábeis, fiscais e trabalhistas, oferecendo serviços personalizados para atender às necessidades de cada cliente.</p>
-        <a href="#">Clique e saiba mais</a>
-      </div>
-    </div>
+      <div class="item">
+        <div class="item__image">
+          <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+        </div>
 
-    <div class="highlight__item item">
-      <div class="item__image">
-        <img src="#" alt="#" />
-      </div>
-
-      <div class="item__content">
-        <h2>O próximo nível em Serviços Contábeis</h2>
-        <p>A Contiso é uma empresa especializada em soluções contábeis, fiscais e trabalhistas, oferecendo serviços personalizados para atender às necessidades de cada cliente.</p>
-        <a href="#">Clique e saiba mais</a>
-      </div>
-    </div>
-
-    <div class="highlight__item item">
-      <div class="item__image">
-        <img src="#" alt="#" />
+        <div class="item__content">
+          <h2>O próximo nível em Serviços Contábeis</h2>
+          <p>A Contiso é uma empresa especializada em soluções contábeis, fiscais e trabalhistas, oferecendo serviços personalizados para atender às necessidades de cada cliente.</p>
+          <a href="#">Clique e saiba mais</a>
+        </div>
       </div>
 
-      <div class="item__content">
-        <h2>Parceiros que acompanham cada detalhe do seu negócio</h2>
-        <p>A Contiso é uma empresa especializada em soluções contábeis, fiscais e trabalhistas, oferecendo serviços personalizados para atender às necessidades de cada cliente.</p>
-        <a href="#">Clique e saiba mais</a>
+      <div class="item">
+        <div class="item__image">
+          <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+        </div>
+
+        <div class="item__content">
+          <h2>Parceiros que acompanham cada detalhe do seu negócio</h2>
+          <p>A Contiso é uma empresa especializada em soluções contábeis, fiscais e trabalhistas, oferecendo serviços personalizados para atender às necessidades de cada cliente.</p>
+          <a href="#">Clique e saiba mais</a>
+        </div>
       </div>
     </div>
   </div>
@@ -82,15 +83,19 @@ require_once('parts/header.php');
 
     <div class="showtoo__items">
       <div class="showtoo__trainning item">
-        <img src="#" alt="#" />
-        <h3>Treinamentos</h3>
-        <a href="#">Saiba mais</a>
+        <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+        <div class="item__content">
+          <h3>Treinamentos</h3>
+          <a href="#">Saiba mais</a>
+        </div>
       </div>
 
       <div class="showtoo__app item">
-        <img src="#" alt="#" />
-        <h3>Nosso aplicativo</h3>
-        <a href="#">Saiba mais</a>
+        <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+        <div class="item__content">
+          <h3>Nosso aplicativo</h3>
+          <a href="#">Saiba mais</a>
+        </div>
       </div>
     </div>
   </div>

@@ -5,16 +5,16 @@ function ct_enqueue_styles_scripts()
   $style = '';
   wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array(), time(), true);
 
-  // Page
-  if (is_page() || is_single() || is_404() || is_page('blog')) {
-    $style = 'page';
-    wp_enqueue_script('page', get_template_directory_uri() . '/assets/js/' . $style . '.js', array('bootstrap'), time(), true);
-  }
-
   // Home
   if (is_front_page() || is_page('home')) {
     $style = 'home';
     wp_enqueue_script('home', get_template_directory_uri() . '/assets/js/' . $style . '.js', array('bootstrap'), time(), true);
+  }
+
+  // Page
+  if ((is_page() || is_single() || is_404() || is_page('blog')) && !is_front_page()) {
+    $style = 'page';
+    wp_enqueue_script('page', get_template_directory_uri() . '/assets/js/' . $style . '.js', array('bootstrap'), time(), true);
   }
 
   // Include style

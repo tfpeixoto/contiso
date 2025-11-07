@@ -6,7 +6,7 @@
 require_once('parts/header.php');
 ?>
 
-<main class="page--single">
+<main class="page--default">
   <section class="slider">
     <div class="container slider__container">
       <h1><?php the_title(); ?></h1>

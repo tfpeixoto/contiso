@@ -1,0 +1,35 @@
+.content {
+  &__container {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    @include media-breakpoint-up(md) {
+      padding: 2rem 2.5rem;
+    }
+
+    blockquote {
+      color: $secondary;
+      font-size: 1.25rem;
+      margin: 0;
+      text-transform: uppercase;
+
+      @include media-breakpoint-up(md) {
+        font-size: 2rem;
+      }
+    }
+
+    hr {
+      color: $soft-yellow;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      padding: 0 1rem;
+
+      @include media-breakpoint-up(md) {
+        padding: 0 2rem;
+      }
+    }
+  }
+}

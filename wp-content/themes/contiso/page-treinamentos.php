@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Template name: História
+ * Template name: Treinamentos
  */
 require_once('parts/header.php');
 ?>
 
-<main class="page--single">
+<main class="page--treinamentos">
   <section class="slider">
     <div class="container slider__container">
       <h1><?php the_title(); ?></h1>
@@ -20,6 +20,12 @@ require_once('parts/header.php');
   <section class="content">
     <div class="container content__container">
       <?php the_content(); ?>
+    </div>
+  </section>
+
+  <section class="invest">
+    <div class="container">
+      <h2>Por que investir em nossos treinamentos</h2>
     </div>
   </section>
 

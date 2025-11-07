@@ -39,10 +39,13 @@
 @import "~bootstrap/scss/buttons";
 @import "~bootstrap/scss/tables";
 
+@import "components/pages";
 @import "components/header";
 @import "components/slider";
 @import "components/list";
 /*! purgecss start ignore */
+@import "components/content";
 @import "components/contact";
 /*! purgecss end ignore */
+@import "components/strategy";
 @import "components/footer";
