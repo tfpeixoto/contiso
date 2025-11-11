@@ -16,7 +16,7 @@ require_once('parts/header.php');
     <div class="list__items">
       <div class="item">
         <div class="item__image">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+          <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb-historia.png" alt="História Contiso" />
         </div>
 
         <div class="item__content">
@@ -28,7 +28,7 @@ require_once('parts/header.php');
 
       <div class="item">
         <div class="item__image">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+          <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb-diferenciais.png" alt="Diferenciais Contiso" />
         </div>
 
         <div class="item__content">
@@ -40,7 +40,7 @@ require_once('parts/header.php');
 
       <div class="item">
         <div class="item__image">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+          <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb-servicos.png" alt="Serviços Contiso" />
         </div>
 
         <div class="item__content">
@@ -62,13 +62,13 @@ require_once('parts/header.php');
     </div>
 
     <div class="features__item">
-      <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-parceria.png" alt="Ícone parceria humanizada e customizada" class="features__icon" />
+      <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-inteligencia.png" alt="Ícone parceria humanizada e customizada" class="features__icon" />
       <h2>Inteligência estratégica para decisões conscientes</h2>
       <p>Vamos além dos números para ser um pilar de apoio em sua tomada de decisões. Ao transformar dados financeiros em insights confiáveis, capacitamos sua gestão a traçar caminhos mais seguros e a capitalizar as oportunidades que impulsionam o crescimento e o sucesso.</p>
     </div>
 
     <div class="features__item">
-      <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-parceria.png" alt="Ícone parceria humanizada e customizada" class="features__icon" />
+      <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-agilidade.png" alt="Ícone parceria humanizada e customizada" class="features__icon" />
       <h2>Agilidade operacional e otimização de recursos</h2>
       <p>Com nossa equipe de especialistas, aplicamos metodologias de ponta para otimizar seus processos contábeis. Isso resulta em maior eficiência, eliminação de gastos supérfluos e um ganho significativo de tempo, permitindo que sua equipe se concentre nas atividades centrais do negócio.</p>
     </div>
@@ -83,7 +83,7 @@ require_once('parts/header.php');
 
     <div class="showtoo__items">
       <div class="showtoo__trainning item">
-        <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+        <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb-treinamentos.png" alt="Treinamentos Contiso" />
         <div class="item__content">
           <h3>Treinamentos</h3>
           <a href="#">Saiba mais</a>
@@ -91,7 +91,7 @@ require_once('parts/header.php');
       </div>
 
       <div class="showtoo__app item">
-        <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb.png" alt="#" />
+        <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb-aplicativo.png" alt="Aplicativo Contiso" />
         <div class="item__content">
           <h3>Nosso aplicativo</h3>
           <a href="#">Saiba mais</a>
