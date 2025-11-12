@@ -29,7 +29,7 @@
     </div>
 
     <div class="footer__policy">
-      <p>Leia nossa <a href="#">Política de Privacidade</a></p>
+      <p>Leia nossa <a href="politica-de-privacidade">Política de Privacidade</a></p>
     </div>
 
     <div class="footer__brand">

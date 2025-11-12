@@ -5,5 +5,11 @@
   &--single,
   &--treinamentos {
     background-color: $soft-yellow;
+
+    .slider {
+      h1 {
+        display: none;
+      }
+    }
   }
 }

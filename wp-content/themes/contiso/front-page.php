@@ -6,9 +6,16 @@
 require_once('parts/header.php');
 ?>
 
-<section class="slider">
-  <div class="container slider__container"></div>
-  <img src="<?= get_template_directory_uri(); ?>/assets/images/banner.jpg" alt="#" />
+<section class="slider slider--home">
+  <div class="container slider__container">
+    <div class="slider__content"></div>
+
+    <div class="slider__form">
+      <?php get_template_part('parts/form-lead'); ?>
+    </div>
+  </div>
+
+  <?php the_post_thumbnail(); ?>
 </section>
 
 <section class="list list--highlight">
@@ -21,8 +28,8 @@ require_once('parts/header.php');
 
         <div class="item__content">
           <h2>Uma trajetória de expertise, compromisso e dedicação.</h2>
-          <p>A Contiso é uma empresa especializada em soluções contábeis, fiscais e trabalhistas, oferecendo serviços personalizados para atender às necessidades de cada cliente.</p>
-          <a href="#">Clique e saiba mais</a>
+          <p>Com mais de três décadas de experiência e fundado em 2003, a Contiso conquistou a confiança de empresas nacionais e multinacionais com uma abordagem inovadora, personalizada e sempre próxima do cliente.</p>
+          <a href="historia">Clique e saiba mais</a>
         </div>
       </div>
 
@@ -33,8 +40,8 @@ require_once('parts/header.php');
 
         <div class="item__content">
           <h2>O próximo nível em Serviços Contábeis</h2>
-          <p>A Contiso é uma empresa especializada em soluções contábeis, fiscais e trabalhistas, oferecendo serviços personalizados para atender às necessidades de cada cliente.</p>
-          <a href="#">Clique e saiba mais</a>
+          <p>Mais do que prestar serviços, construímos relações de confiança. O diferencial não está no que fazemos, mas em como fazemos. A Contiso alia atendimento humanizado e personalizado a sistemas de inteligência artificial que otimizam processos e aumentam a eficiência. Nosso compromisso é oferecer soluções que simplificam a gestão, proporcionam informações claras e apoiam decisões estratégicas.</p>
+          <a href="diferenciais">Clique e saiba mais</a>
         </div>
       </div>
 
@@ -45,8 +52,8 @@ require_once('parts/header.php');
 
         <div class="item__content">
           <h2>Parceiros que acompanham cada detalhe do seu negócio</h2>
-          <p>A Contiso é uma empresa especializada em soluções contábeis, fiscais e trabalhistas, oferecendo serviços personalizados para atender às necessidades de cada cliente.</p>
-          <a href="#">Clique e saiba mais</a>
+          <p>Nosso compromisso é assegurar que sua empresa tenha uma estrutura sólida, transparente e confiável, independentemente do porte ou segmento. Mais do que cumprir obrigações legais, entregamos suporte estratégico para que cada cliente tenha segurança, organização e estabilidade em cada etapa do seu negócio.</p>
+          <a href="servicos">Clique e saiba mais</a>
         </div>
       </div>
     </div>
@@ -86,7 +93,7 @@ require_once('parts/header.php');
         <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb-treinamentos.png" alt="Treinamentos Contiso" />
         <div class="item__content">
           <h3>Treinamentos</h3>
-          <a href="#">Saiba mais</a>
+          <a href="treinamentos">Saiba mais</a>
         </div>
       </div>
 
@@ -94,7 +101,7 @@ require_once('parts/header.php');
         <img src="<?= get_template_directory_uri(); ?>/assets/images/thumb-aplicativo.png" alt="Aplicativo Contiso" />
         <div class="item__content">
           <h3>Nosso aplicativo</h3>
-          <a href="#">Saiba mais</a>
+          <a href="aplicativo">Saiba mais</a>
         </div>
       </div>
     </div>

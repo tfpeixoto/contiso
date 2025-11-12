@@ -12,7 +12,7 @@ require_once('parts/header.php');
       <h1><?php the_title(); ?></h1>
     </div>
 
-    <img src="<?= get_template_directory_uri(); ?>/assets/images/banner.jpg" alt="#" />
+    <?php the_post_thumbnail(); ?>
   </section>
 
   <section class="list list--services">

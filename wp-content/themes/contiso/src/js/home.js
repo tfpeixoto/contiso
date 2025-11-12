@@ -1,5 +1,5 @@
 //JS
-console.log("Hello world")
+import './components/form-lead'
 
 // SCSS
 import '../scss/home.scss'

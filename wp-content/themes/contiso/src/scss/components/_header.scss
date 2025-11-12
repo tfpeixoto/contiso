@@ -23,6 +23,25 @@
     }
   }
 
+  .navbar-toggler {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+
+    span {
+      background-color: $secondary;
+      content: '';
+      display: block;
+      height: 3px;
+      width: 2rem;
+    }
+  }
+
   .navbar {
     padding: 0;
   }

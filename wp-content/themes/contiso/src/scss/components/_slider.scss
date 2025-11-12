@@ -1,8 +1,25 @@
 .slider {
-  height: 80vh;
-  max-height: 900px;
+  height: 30vh;
   position: relative;
   overflow: hidden;
+
+  @include media-breakpoint-up(md) {
+    height: 80vh;
+    max-height: 900px;
+  }
+
+  &--home {
+    .slider__container {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+    }
+  }
+
+  &--services {
+    h1 {
+      display: none;
+    }
+  }
 
   &__container {
     position: relative;
@@ -11,6 +28,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+
+    @include media-breakpoint-up(md) {
+      justify-content: flex-end;
+    }
   }
 
   h1 {
@@ -25,6 +51,6 @@
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: -1;
+    z-index: 0;
   }
 }
