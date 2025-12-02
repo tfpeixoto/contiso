@@ -8,7 +8,7 @@ require_once('parts/header.php');
 
 <section class="slider">
   <div class="container slider__container">
-    <h1><?php the_title(); ?></h1>
+    <?php // the_title('<h1>', '</h1>'); ?>
   </div>
 
   <img src="<?= get_template_directory_uri(); ?>/assets/images/banner.jpg" alt="#" />

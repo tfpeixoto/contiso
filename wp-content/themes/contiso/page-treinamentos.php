@@ -22,8 +22,18 @@ require_once('parts/header.php');
   </section>
 
   <section class="invest">
-    <div class="container">
-      <h2>Por que investir em nossos treinamentos</h2>
+    <div class="container invest__container">
+      <div class="invest__content">
+        <h2>Por que investir em nossos treinamentos:</h2>
+        <p>Favorecem um ambiente corporativo mais integrado e comunicativo.</p>
+        <p>Estimulam o desenvolvimento de equipes alinhadas e de alta performance.
+        <p>São cuidadosamente elaborados para atender às demandas específicas
+          de cada negócio.</p>
+      </div>
+
+      <div class="invest__highlight">
+        <p>Capacitar pessoas é investir no futuro da sua empresa. Entre em contato conosco e descubra como nossos treinamentos podem transformar a sua equipe.</p>
+      </div>
     </div>
   </section>
 

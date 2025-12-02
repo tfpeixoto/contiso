@@ -1,12 +1,15 @@
 <?php
+
+/**
+ * Template name: Amarela
+ */
 require_once('parts/header.php');
 ?>
 
-<main class="page--default">
+<main class="page--amarela">
   <section class="slider">
     <div class="container slider__container">
-      <?php // the_title('<h1>', '</h1>'); 
-      ?>
+      <?php // the_title('<h1>', '</h1>'); ?>
     </div>
 
     <?php the_post_thumbnail(); ?>

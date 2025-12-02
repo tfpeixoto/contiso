@@ -1,0 +1,43 @@
+.invest {
+  margin-bottom: 2rem;
+  text-align: center;
+
+  &__container {
+    background-color: $secondary;
+    color: white;
+    padding: 1rem;
+
+    @include media-breakpoint-up(md) {
+      padding: 2rem 2.5rem;
+    }
+  }
+
+  h2 {
+    color: $soft-yellow;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1.75rem;
+    }
+  }
+
+  &__highlight {
+    border-top: 1px solid $soft-yellow;
+    padding-top: 2rem;
+    text-wrap: balance;
+
+    p {
+      color: $soft-yellow;
+      font-size: 1.25rem;
+      line-height: 1.1;
+
+      @include media-breakpoint-up(md) {
+        font-size: 2rem;
+      }
+    }
+  }
+}

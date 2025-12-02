@@ -40,11 +40,12 @@
 @import "~bootstrap/scss/buttons";
 @import "~bootstrap/scss/tables";
 
-@import "components/pages";
 @import "components/header";
 @import "components/slider";
 @import "components/list";
+@import "components/invest";
 /*! purgecss start ignore */
+@import "components/pages";
 @import "components/content";
 @import "components/contact";
 /*! purgecss end ignore */
