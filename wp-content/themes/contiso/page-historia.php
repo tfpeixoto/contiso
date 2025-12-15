@@ -24,19 +24,19 @@ require_once('parts/header.php');
   <section class="strategy">
     <div class="container strategy__container">
       <div class="strategy__item">
-        <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-parceria.png" alt="#" class="strategy__icon" />
+        <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-missao.png" alt="#" class="strategy__icon" />
         <h2>Missão</h2>
         <p>Fornecer informações e conhecimentos para que nossos clientes possam utilizar na gestão de suas empresas</p>
       </div>
 
       <div class="strategy__item">
-        <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-parceria.png" alt="#" class="strategy__icon" />
+        <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-visao.png" alt="#" class="strategy__icon" />
         <h2>Visão</h2>
         <p>Ser reconhecido como um escritório de soluções na gestão geral de um negócio.</p>
       </div>
 
       <div class="strategy__item">
-        <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-parceria.png" alt="#" class="strategy__icon" />
+        <img src="<?= get_template_directory_uri(); ?>/assets/images/icone-valores.png" alt="#" class="strategy__icon" />
         <h2>Valores</h2>
         <p>Sigilo, ética e transparência. Pratica empatia. Comprometimento</p>
       </div>
