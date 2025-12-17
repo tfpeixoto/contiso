@@ -51,8 +51,26 @@
           background-color: rgba($white, 0.05);
           border: none;
           color: white;
+          max-height: 5rem;
           padding: 1rem 2rem;
           width: 100%;
+        }
+      }
+
+      .wpcf7-submit {
+        background-color: $dark-yellow;
+        border: none;
+        color: $secondary;
+        cursor: pointer;
+        font-weight: 700;
+        line-height: 1;
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        transition: background-color .3s ease;
+        width: auto;
+
+        &:hover {
+          background-color: $soft-yellow;
         }
       }
     }
@@ -60,7 +78,7 @@
 
   &__map {
     iframe {
-      margin-bottom: -1rem;
+      margin-bottom: -.5rem;
     }
   }
 }
