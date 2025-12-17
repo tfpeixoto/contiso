@@ -1,0 +1,66 @@
+.contact {
+  position: relative;
+  z-index: 6;
+
+  &__container {
+    background-color: $secondary;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+
+    @include media-breakpoint-up(md) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__form {
+    color: $soft-yellow;
+    padding: 2rem 3rem;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    address {
+      a {
+        color: $soft-yellow;
+        text-decoration: none;
+
+        &:hover {
+          color: $dark-yellow;
+        }
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: .75rem;
+
+      .form-control {
+        label {
+          display: none;
+          visibility: hidden;
+        }
+
+        input,
+        textarea {
+          background-color: rgba($white, 0.05);
+          border: none;
+          color: white;
+          padding: 1rem 2rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__map {
+    iframe {
+      margin-bottom: -1rem;
+    }
+  }
+}

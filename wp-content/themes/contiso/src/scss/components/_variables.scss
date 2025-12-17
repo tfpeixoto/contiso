@@ -1,26 +1,29 @@
 // Colors
 $primary: #d09a29;
 $secondary: #0b3141;
-$soft-grey: #e5c881;
+$soft-yellow: #e5c881;
+$dark-yellow: #9f8868;
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
-  "soft-grey": $soft-grey,
+  "soft-yellow": $soft-yellow,
+  "dark-yellow": $dark-yellow,
 );
 
 $body-color: $secondary;
-// $font-family-base: "avenir-lt-pro", sans-serif;
-$font-weight-normal: 300;
+$font-family-base: "Mont Book", sans-serif;
+$font-weight-normal: normal;
 $font-size-base: 1rem;
 
-$headings-font-weight: 700;
+$headings-font-weight: 400;
 
 html {
   scroll-behavior: smooth;
 }
 
 a {
+  text-decoration: none;
   transition: all ease-in-out 0.3s;
 }
 
@@ -33,6 +36,6 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 {  
   text-wrap: balance;
 }

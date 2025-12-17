@@ -1,0 +1,16 @@
+.page {
+
+  &--historia,
+  &--diferenciais,
+  &--single,
+  &--treinamentos,
+  &--amarela {
+    background-color: $soft-yellow;
+
+    .slider {
+      h1 {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.form-lead {
+  background-color: rgba($soft-yellow, .7);
+  color: white;
+  padding: 2rem;
+  max-width: 25rem;
+  position: relative;
+  z-index: 10;
+
+  h3 {
+    font-family: "MontBold", sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  &__close {
+    background: none;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  &__subheadline {
+    font-style: italic;
+    line-height: 1;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    .form-group {
+      display: flex;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      label {
+        display: none;
+        background-color: red;
+        visibility: hidden;
+      }
+
+      input {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        font-size: 1.5rem;
+        line-height: 1;
+        padding: .5rem 1rem;
+        width: 100%;
+
+        &::placeholder {
+          color: white;
+        }
+      }
+    }
+
+    button,
+    #button {
+      background: $dark-yellow;
+      border: 0;
+      color: white;
+      display: block;
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding: .5rem;
+      text-transform: uppercase;
+    }
+  }
+
+  &__footer {
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+  }
+}

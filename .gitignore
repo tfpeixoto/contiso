@@ -18,13 +18,16 @@
 
 # Configuration
 wp-config.php
-_wp-config.php
+__wp-config.php
 
 # Example themes
 /wp-content/themes/twenty*/
 
 # Uploads
 /wp-content/uploads/
+
+# Plugins
+/wp-content/plugins/
 
 # Log files
 *.log
