@@ -1,6 +1,7 @@
 .slider {
-  height: 30vh;
+  height: 100%;
   position: relative;
+  padding: 1rem;
   overflow: hidden;
 
   @include media-breakpoint-up(md) {
